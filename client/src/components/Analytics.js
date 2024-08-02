@@ -46,6 +46,7 @@ const Analytics = ({ allTransection }) => {
     (totalExpenseTurnover / totalTurnover) * 100;
   return (
     <>
+      <div className="d-flex justify-content-center flex-column p-4 ms-auto" >
       <div className="row m-3">
         <div className="col-md-4">
           <div className="card">
@@ -153,6 +154,7 @@ const Analytics = ({ allTransection }) => {
             );
           })}
         </div>
+      </div>
       </div>
     </>
   );

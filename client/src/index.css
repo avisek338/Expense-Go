@@ -5,7 +5,7 @@
 }
 
 .content {
-  height: 100vh;
+  min-height: 600px;
 }
 
 .register-page {
@@ -44,3 +44,4 @@
 .inactive-icon {
   color: gray;
 }
+
