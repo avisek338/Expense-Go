@@ -10,7 +10,7 @@ import Spinner from "../components/Spinner";
   const submitHandler = async (values) => {
     try {
       setLoading(true);
-      await axios.post("/users/register", values);
+      await axios.post("https://expense-tracking-api-y8yb.onrender.com/api/v1/users/register", values);
       message.success("Registeration Successfull");
       setLoading(false);
       navigate("/login");
